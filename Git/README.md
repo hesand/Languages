@@ -47,3 +47,10 @@ git remote add origin https://github.com/hesand/Languages.git
 git push -u origin master
 ```
 
+# Installing latest version of git on Ubuntu
+
+```bash
+sudo apt-add-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+```
